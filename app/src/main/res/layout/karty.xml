@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#009702">
+
+    <ImageView
+        android:id="@+id/kolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_kolor"
+        android:src="@drawable/kier"/>
+
+    <TextView
+        android:id="@+id/numer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numer"
+        android:layout_alignLeft="@id/kolor"
+        android:layout_alignTop="@id/kolor"
+        android:layout_alignRight="@id/kolor"
+        android:layout_alignBottom="@id/kolor"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginLeft="5sp" />
+
+</RelativeLayout>

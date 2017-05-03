@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BlackJack3</string>
+    <string name="action_settings">Settings</string>
+    <string name="obstaw">OBSTAW</string>
+    <string name="title_activity_zaklad">Zaklad</string>
+    <string name="Podwojenie">Podwojenie</string>
+    <string name="Rozdwojenie">Rozdwojenie</string>
+    <string name="Nie">Nie</string>
+    <string name="Dobierz">Dobierz</string>
+    <string name="Zakład">Zakład:</string>
+    <string name="ilosc_talii">POZIOM TRUDNOŚCI: </string>
+    <string name="cztery_talie">CZTERY TALIE</string>
+    <string name="dwie_talie">DWIE TALIE</string>
+    <string name="start">START</string>
+    <string name="desc_dzban">desc_dzban</string>
+    <string name="desc_zwroc">desc_zwroc</string>
+    <string name="desc_tysiac">desc_tysiac</string>
+    <string name="desc_sto">desc_sto</string>
+    <string name="desc_piecdz">desc_piecdz</string>
+    <string name="desc_piec">desc_piec</string>
+    <string name="desc_jeden">desc_jeden</string>
+    <string name="desc_kolor">desc_kolor</string>
+    <string name="numer">10</string>
+
+</resources>

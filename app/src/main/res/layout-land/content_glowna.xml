@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asuss.blackjack3.Glowna"
+    tools:showIn="@layout/activity_glowna"
+    android:background="#009702">
+
+    <Button
+        android:layout_width="170sp"
+        android:layout_height="60sp"
+        android:text="@string/start"
+        android:id="@+id/start"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69sp"
+        android:onClick="start"
+        android:background="@drawable/green2"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ilosc_talii"
+        android:id="@+id/ilosc_talii"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+    <RadioGroup
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_above="@+id/start"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio2"
+            android:text="@string/cztery_talie"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:onClick="poziom_trudnosci" />
+
+        <RadioButton
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio1"
+            android:text="@string/dwie_talie"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_marginTop="10sp"
+            android:onClick="poziom_trudnosci" />
+    </RadioGroup>
+
+
+</RelativeLayout>
